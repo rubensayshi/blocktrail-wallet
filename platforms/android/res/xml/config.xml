@@ -25,9 +25,6 @@
     <feature name="Clipboard">
         <param name="android-package" value="com.verso.cordova.clipboard.Clipboard" />
     </feature>
-    <feature name="CsZBar">
-        <param name="android-package" value="org.cloudsky.cordovaPlugins.ZBar" />
-    </feature>
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
@@ -81,6 +78,9 @@
     <feature name="Sms">
         <param name="android-package" value="com.cordova.plugins.sms.Sms" />
     </feature>
+    <feature name="BarcodeScanner">
+        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
+    </feature>
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="android-minSdkVersion" value="17" />
@@ -101,7 +101,7 @@
     <author email="devs@blocktrail.com" href="https://www.blocktrail.com/">
       BlockTrail Team
     </author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://10.15.205.217:8100" />
     <access origin="*" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />

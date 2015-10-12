@@ -36,9 +36,6 @@
     <feature name="Clipboard">
         <param name="ios-package" value="CDVClipboard" />
     </feature>
-    <feature name="CsZBar">
-        <param name="ios-package" value="CsZBar" />
-    </feature>
     <feature name="NetworkStatus">
         <param name="ios-package" value="CDVConnection" />
     </feature>
@@ -138,4 +135,7 @@
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="orientation" value="portrait" />
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <feature name="BarcodeScanner">
+        <param name="ios-package" value="CDVBarcodeScanner" />
+    </feature>
 </widget>

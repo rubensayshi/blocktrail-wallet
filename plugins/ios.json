@@ -37,10 +37,6 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"CsZBar\"><param name=\"ios-package\" value=\"CsZBar\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
                             "count": 1
                         },
@@ -119,6 +115,10 @@
                         {
                             "xml": "<feature name=\"Sms\"><param name=\"ios-package\" value=\"Sms\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"BarcodeScanner\"><param name=\"ios-package\" value=\"CDVBarcodeScanner\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -128,7 +128,7 @@
                     "CoreGraphics.framework": [
                         {
                             "xml": false,
-                            "count": 5
+                            "count": 6
                         }
                     ],
                     "AddressBook.framework": [
@@ -146,15 +146,10 @@
                     "AVFoundation.framework": [
                         {
                             "xml": false,
-                            "count": 2
-                        }
-                    ],
-                    "CoreMedia.framework": [
-                        {
-                            "xml": false,
                             "count": 1
                         }
                     ],
+                    "CoreMedia.framework": [],
                     "CoreVideo.framework": [
                         {
                             "xml": false,
@@ -164,7 +159,7 @@
                     "QuartzCore.framework": [
                         {
                             "xml": false,
-                            "count": 2
+                            "count": 1
                         }
                     ],
                     "libiconv.dylib": [
@@ -213,9 +208,19 @@
                         {
                             "xml": true,
                             "count": 2
+                        },
+                        {
+                            "xml": false,
+                            "count": 1
                         }
                     ],
                     "StoreKit.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "CoreImage.framework": [
                         {
                             "xml": false,
                             "count": 1
@@ -264,9 +269,6 @@
             "PACKAGE_NAME": "com.blocktrail.mywallet"
         },
         "com.verso.cordova.clipboard": {
-            "PACKAGE_NAME": "com.blocktrail.mywallet"
-        },
-        "org.cloudsky.cordovaplugins.zbar": {
             "PACKAGE_NAME": "com.blocktrail.mywallet"
         },
         "cordova-plugin-network-information": {
@@ -322,6 +324,9 @@
             "PACKAGE_NAME": "com.blocktrail.mywallet"
         },
         "com.cordova.plugins.sms": {
+            "PACKAGE_NAME": "com.blocktrail.mywallet"
+        },
+        "phonegap-plugin-barcodescanner": {
             "PACKAGE_NAME": "com.blocktrail.mywallet"
         }
     },

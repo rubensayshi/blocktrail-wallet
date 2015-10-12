@@ -39,7 +39,6 @@
       "locator": "https://github.com/VersoSolutions/CordovaClipboard",
       "id": "com.verso.cordova.clipboard"
     },
-    "org.cloudsky.cordovaplugins.zbar",
     "cordova-plugin-network-information",
     {
       "locator": "https://github.com/wymsee/cordova-imagePicker.git",
@@ -90,7 +89,8 @@
     {
       "locator": "https://github.com/blocktrail/cordova-sms-plugin.git",
       "id": "com.cordova.plugins.sms"
-    }
+    },
+    "phonegap-plugin-barcodescanner"
   ],
   "cordovaPlatforms": [
     "ios",

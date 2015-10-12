@@ -65,14 +65,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "org.cloudsky.cordovaplugins.zbar": {
-        "source": {
-            "type": "registry",
-            "id": "org.cloudsky.cordovaplugins.zbar"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-network-information": {
         "source": {
             "type": "registry",
@@ -241,6 +233,14 @@
             "type": "git",
             "url": "https://github.com/blocktrail/cordova-sms-plugin.git",
             "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "phonegap-plugin-barcodescanner": {
+        "source": {
+            "type": "registry",
+            "id": "phonegap-plugin-barcodescanner"
         },
         "is_top_level": true,
         "variables": {}
