@@ -115,15 +115,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-dialogs": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/blocktrail/cordova-plugin-dialogs",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "fr.spirotron.cordova.disabledatadetectors": {
         "source": {
             "type": "registry",
@@ -241,6 +232,16 @@
             "type": "git",
             "url": "https://github.com/blocktrail/cordova-sms-plugin.git",
             "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/blocktrail/cordova-plugin-dialogs.git",
+            "subdir": ".",
+            "ref": "blocktrail"
         },
         "is_top_level": true,
         "variables": {}

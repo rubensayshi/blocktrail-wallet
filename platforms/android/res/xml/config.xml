@@ -43,9 +43,6 @@
     <feature name="PinDialog">
         <param name="android-package" value="hu.dpal.phonegap.plugins.PinDialog" />
     </feature>
-    <feature name="Notification">
-        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
-    </feature>
     <feature name="FileOpener2">
         <param name="android-package" value="io.github.pwlin.cordova.plugins.fileopener2.FileOpener2" />
     </feature>
@@ -80,6 +77,9 @@
     </feature>
     <feature name="Sms">
         <param name="android-package" value="com.cordova.plugins.sms.Sms" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
     </feature>
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="AutoHideSplashScreen" value="true" />
